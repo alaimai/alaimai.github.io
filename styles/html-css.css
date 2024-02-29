@@ -134,7 +134,7 @@ code {
     background-image: url(/photos/tech/absolute.png);
     height: 200px;
 }
-@media (max-width: 800px) {
+@media all and (max-width: 800px) {
     .pic1 {
         background-image: url();
         height: 0;
@@ -156,7 +156,7 @@ code {
         font-style: normal;
     }
     .div3 {
-        padding-top: 40%;
+        padding-top: 30%;
     }
     .p-style {
         font-family: "Crimson Text", serif;
