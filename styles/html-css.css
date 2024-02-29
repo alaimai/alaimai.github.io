@@ -134,7 +134,7 @@ code {
     background-image: url(/photos/tech/absolute.png);
     height: 200px;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     .pic1 {
         background-image: url();
         height: 0;
