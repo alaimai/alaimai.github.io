@@ -115,9 +115,8 @@ footer {
     font-size: 1.1rem;
 }
 footer p a {
-    text-decoration: none;
+    
     font-style: italic;
-
 }
 span {
     font-style: italic;
@@ -133,8 +132,10 @@ span {
 }
 .nodecor {
     text-decoration: none;
-
-
+    color: #494949;
+}
+.nodecor:hover {
+   color: #8e8a8a;
 }
 
 @media (max-width: 450px) {

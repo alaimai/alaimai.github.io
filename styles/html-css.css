@@ -105,13 +105,16 @@ footer {
     font-size: 1.1rem;
 }
 footer p a {
-    text-decoration: none;
     font-style: italic;
 }
 
 .nodecor {
     text-decoration: none;
+    color: #494949;
 }
+.nodecor:hover {
+    color: #8e8a8a;
+ }
 .focus-on {
     background-color: #0272ad;
     padding: 1rem 0.5rem 1rem 0.5rem;
