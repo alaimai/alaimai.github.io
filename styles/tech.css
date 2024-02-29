@@ -1,0 +1,118 @@
+html, body {
+    background-color: #f7f7f7;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+}
+.nav-flex {
+    display: flex;
+    background-color: #004265;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+body nav a img {
+    height: 50px;
+    width: 50px;
+    border-radius: 60%;
+    margin-top: 4px;
+}
+
+nav a {
+    text-decoration: none;
+    color:#f7f8fa;
+    font-size: 1.5rem;
+}
+.hdiv {
+    background: url(/photos/tech.jpg) no-repeat center fixed;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 15rem;
+}
+h1 {
+    color: #f7f8fa;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+.subtitle {
+    color: #f7f8fa;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+.div-container {
+    color: #494949;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    
+}
+.p-style {
+    text-indent: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.div1 {
+    grid-column: 1 / 3;
+    border-bottom: solid #d7e1e9;    
+}
+.div2 {
+    background-color: #ffffff;
+
+    font-size: 1.2rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h3 {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    text-indent: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.datefont {
+    text-align: end;
+}    
+footer {
+    color: #494949;
+   /* color: #017dba;*/
+    border-top: solid #d7e1e9;
+    margin-top: 2rem;
+    padding-bottom: 0.3rem;
+    text-align: center;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+footer p a {
+    text-decoration: none;
+    font-style: italic;
+
+}
+span {
+    font-style: italic;
+
+}
