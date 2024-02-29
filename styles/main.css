@@ -21,7 +21,7 @@ body nav a img {
     height: 50px;
     width: 50px;
     border-radius: 60%;
-    margin-top: 4px;
+    margin-top: 6px;
 }
 
 nav a {
@@ -121,5 +121,9 @@ footer p a {
 }
 span {
     font-style: italic;
-
+}
+.datefont {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
 }
