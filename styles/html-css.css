@@ -1,0 +1,178 @@
+html, body {
+    background-color: #f7f7f7;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+}
+.nav-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #004265;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+body nav a img {
+    height: 50px;
+    width: 50px;
+    border-radius: 60%;
+    margin-top: 6px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color:#f7f8fa;
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: #393a3d;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.div-container {
+    color: #494949;
+    /*display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;*/
+    
+}
+.p-style {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+}
+.fb {
+    font-style: italic;
+    font-weight: 500;
+    color: #b17837;
+}
+.div1 {
+    /*grid-column: 1 / 3;*/
+    width: 70%;
+    text-align: center;
+    position: fixed;
+    left: 15%;
+    padding-top:5%;   
+}
+
+.div2 {
+    position: relative;
+    left: 15%;
+    font-size: 1.2rem;
+    width: 70%;
+}
+.div3 {
+    padding-top: 20%;
+    
+}
+h3 {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    text-indent: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.datefont {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: end;
+}    
+footer {
+    color: #494949;
+   /* color: #017dba;*/
+    border-top: solid #d7e1e9;
+    margin-top: 2rem;
+    padding-bottom: 0.3rem;
+    text-align: center;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+footer p a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.nodecor {
+    text-decoration: none;
+}
+.focus-on {
+    background-color: #0272ad;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+code {
+    display: block;
+}
+.code-content {
+    text-indent: 4rem;
+}
+.pic1 {
+    background-image: url(/photos/tech/static.png);
+    height: 200px;
+}
+.pic2 {
+    background-image: url(/photos/tech/relative.png);
+    height: 200px;
+}
+.pic3 {
+    background-image: url(/photos/tech/absolute.png);
+    height: 200px;
+}
+@media (max-width: 500px) {
+    .pic1 {
+        background-image: url();
+        height: 0;
+    }
+    .pic2 {
+        background-image: url();
+        height: 0;
+    }
+    .pic3 {
+        background-image: url();
+        height: 0;
+    }
+    h1 {
+        color: #393a3d;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: "Crimson Text", serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+    .div3 {
+        padding-top: 40%;
+    }
+    .p-style {
+        font-family: "Crimson Text", serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1.2rem;
+    }
+    .nav-flex {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #004265;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        overflow: hidden;
+
+    }
+}
