@@ -59,11 +59,11 @@ h1 {
     color: #494949;
     display: grid;
     grid-template-columns:  1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5 1fr);
     gap: 0.8rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     
 }
 .p-style {
@@ -133,6 +133,6 @@ footer p a {
         gap: 0.8rem;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
-        margin-top: 0.5rem;
+        margin-top: 2rem;
     }
 }
