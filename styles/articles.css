@@ -43,7 +43,7 @@ h1 {
     display: grid;
     grid-template-columns: reapt(3 1fr);
     grid-template-rows: reapt(3 1fr);
-    gap: 0.8rem;
+    gap: 1rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     width: 80%;
@@ -54,6 +54,13 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 1.6rem;
+}
+.p-style1 {
+    font-family: "Crimson Text", serif;
+    /*font-weight: 400;*/
+    font-style: normal;
+    font-size: 1.1rem;
+    padding: 0 1rem 0 1rem;
 }
 .fb {
     font-style: italic;
@@ -117,7 +124,14 @@ h1 {
     background-size: cover;
     grid-column: 2 / 4;
     grid-row: 2 / 4;
-    box-shadow: 0px 10px 20px 0 rgba(21, 61, 236, 0.2), 0px 10px 20px 0 rgba(21, 61, 236, 0.2);
+    box-shadow: 0px 10px 20px  0px rgba(21, 61, 236, 0.2), 0px 10px 20px 0px rgba(21, 61, 236, 0.2);
+    
+}
+.div10 {
+    display: flex;
+    flex-direction: column;
+    
+    width: 50%
 }
 
 h3 {
