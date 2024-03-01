@@ -30,6 +30,12 @@ nav a {
     font-size: 1.5rem;
 }
 .hdiv {
+    background: url(/photos/culture.jpg) no-repeat center fixed;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 15rem;
+}
+.hdiv2 {
     background: url(/photos/tech.jpg) no-repeat center fixed;
     background-size: cover;
     padding-top: 6rem;
