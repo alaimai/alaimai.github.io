@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML-CSS</title>
+    <meta charset="UTF-8" >
+    <link rel="stylesheet" type="text/css" href="/styles/articles.css" > 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  
+    <link rel="shortcut icon" href="/favicon.ico">
+  </head>
+  <body>
+    <nav class="nav-flex">
+      <span class="my-photo"><a href="/index.html">
+        <img src="/photos/IMG_3626.jpg" alt="lei's selfie in lake tekapo">
+      </a></span>
+      <span class="focus-on "><a href="/blog/technical.html">Tech Blog</a></span>
+      <span><a href="/blog/cultural.html">Core Blog</a></span>
+      <span><a href="/blog/reflections.html">Reflections</a></span>
+      <span><a href="https://discordapp.com/users/912584605767458816" target="_blank"><img width="50" height="50" src="https://img.icons8.com/ios/50/discord-logo--v1.png" alt="discord-logo--v1"/>
+      </a></span>
+      </nav>
+    
+      <div class="div1">
+        <h1>
+            What are the differences between relative, absolute, and fixed positioning?
+        </h1> 
+      </div>
+      <div class="div3"></div>
+      <div class="div2">
+        <p class="p-style">29th Feb, 2024</p>
+      </div>
+      <div class="div2">
+        <p class="p-style"><span class="fb">Static position:</span>
+           static position is the default position style for elements. 
+           With this style, elements are non-positioned--they appear as 
+           they are in the markup document. This style is also the only 
+           non-positioned style. top, left, right, and bottom does not work 
+           with this style.
+        </p>
+        <div class="pic1"></div> 
+        <p class="p-style"><span class="fb">Relative Position:</span> Setting the top, right, bottom, and left 
+            properties of an element with position: relative; property will 
+            cause it to adjust from its normal position. The other objects or 
+            elements will not fill the gap.
+        </p> 
+        <code>.my-photo {</code>
+                <code class="code-content">position: relative;</code>               
+                 <code class="code-content">top: 50%;</code>
+                <code class="code-content">left: 20%;</code>
+        <code>}</code></br>
+        <div class="pic2"></div>  
+        <p class="p-style"><span class="fb">Absolute Position:</span> An element with position: absolute; 
+            will cause it to adjust its position with respect to its parent.
+            If no parent is present, then it uses the document body as parent.
+        </p>
+        <code>.my-photo {</code>
+            <code class="code-content">position: absolute;</code>               
+             <code class="code-content">top: 10%;</code>
+        <code>}</code></br>
+        <div class="pic3"></div>
+        <p class="p-style"><span class="fb">Fixed Position:</span> Position: fixed; property applied to an element 
+           will cause it to always stay in the same place even if the page is 
+           scrolled. To position the element we use top, right, bottom, left 
+           properties.
+        </p>
+        <code>.my-h1 {</code>
+            <code class="code-content">position: fixed;</code>               
+             <code class="code-content">top: 10%;</code>
+        <code>}</code>
+        <p class="p-style">You must have noted that heading is in fixed position.</p>
+      </div>
+   
+  </body>
+  <footer>
+     <p>if you are interested in full stack web development please visit 
+        <a href="https://devacademy.co.nz/" target=”_blank” class="nodecor">Dev academy</a> website for more information.</p>
+  </footer>
+</html>
