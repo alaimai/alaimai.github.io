@@ -124,14 +124,12 @@ h1 {
     background-size: cover;
     grid-column: 2 / 4;
     grid-row: 2 / 4;
-    box-shadow: 0px 10px 20px  0px rgba(21, 61, 236, 0.2), 0px 10px 20px 0px rgba(21, 61, 236, 0.2);
-    
 }
 .div10 {
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
+    width: 90%
     
-    width: 50%
 }
 
 h3 {
@@ -204,7 +202,7 @@ code {
     background-image: url(/photos/tech/absolute.png);
     height: 200px;
 }
-@media all and (max-width: 800px) {
+@media all and (max-width: 768px) {
     .pic1 {
         background-image: url();
         height: 0;
@@ -244,5 +242,78 @@ code {
         font-style: normal;
         overflow: hidden;
 
+    }
+    .div-container2 {
+        color: #494949;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .div9 {
+        background: url();
+    }
+    .div10 {
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+    }
+      
+}
+@media all and (max-width: 372px) {
+    .pic1 {
+        background-image: url();
+        height: 0;
+    }
+    .pic2 {
+        background-image: url();
+        height: 0;
+    }
+    .pic3 {
+        background-image: url();
+        height: 0;
+    }
+    h1 {
+        color: #393a3d;
+        text-align: center;
+        font-size: 1.3rem;
+        font-family: "Crimson Text", serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+    .div3 {
+        padding-top: 40%;
+    }
+    .p-style {
+        font-family: "Crimson Text", serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1rem;
+    }
+    .nav-flex {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #004265;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        overflow: hidden;
+
+    }
+    footer {
+        color: #494949;
+       /* color: #017dba;*/
+        border-top: solid #d7e1e9;
+        margin-top: 2rem;
+        padding-bottom: 0.3rem;
+        text-align: center;
+        font-family: "Crimson Text", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
     }
 }

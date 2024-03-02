@@ -140,6 +140,14 @@ span {
    color: #8e8a8a;
 }
 
-@media (max-width: 450px) {
-    
+@media (max-width: 320px) {
+    .div-container {
+        color: #494949;
+        display: flex;
+        gap: 0.8rem;
+       /* margin-top: -5.4rem;*/
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        flex-direction: column;
+    }
 }
