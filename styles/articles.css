@@ -60,6 +60,13 @@ h1 {
   font-size: 1.1rem;
   padding: 0 1rem 0 1rem;
 }
+.p-style2 {
+  text-indent: 1rem;
+  font-family: 'Crimson Text', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+}
 .fb {
   font-style: italic;
   font-weight: 500;
@@ -121,6 +128,16 @@ h1 {
   flex-direction: row;
   width: 90%;
 }
+.div11 {
+  position: relative;
+  left: 10%;
+  width: 70%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 h3 {
   font-family: 'Crimson Text', serif;
@@ -177,6 +194,11 @@ footer p a {
 code {
   display: block;
   background-color: white;
+  text-indent: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 .code-content {
   text-indent: 4rem;
