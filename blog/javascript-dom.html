@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JS Fundamentals</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="/styles/articles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <nav class="nav-flex">
+      <span
+        ><a href="/index.html">
+          <img
+            src="/photos/IMG_3626.jpg"
+            alt="lei's selfie in lake tekapo"
+          /> </a
+      ></span>
+      <span><a href="/blog/tech.html">Tech Blog</a></span>
+      <span class="focus-on"><a href="/blog/core.html">Core Blog</a></span>
+      <span><a href="/blog/reflections.html">Reflections</a></span>
+      <span
+        ><a
+          href="https://discordapp.com/users/912584605767458816"
+          target="_blank"
+          ><img
+            width="50"
+            height="50"
+            src="https://img.icons8.com/ios/50/discord-logo--v1.png"
+            alt="discord-logo--v1"
+          /> </a
+      ></span>
+    </nav>
+
+    <div class="div4">
+      <h1>JavaScript Fundamentals</h1>
+    </div>
+    <div class="div2">
+      <p class="p-style">16th Mar, 2024</p>
+    </div>
+    <div class="div2">
+      <p class="p-style">
+        Hello everyone, welcome to my Sprint 3 - JavaScript and DOM journey. I'm
+        excited to share with you what I've learned during this sprint. I'm
+        eager to hear your feedback and insights. Let's dive in!
+      </p>
+    </div>
+    <div class="div2">
+      <p class="p-style">
+        This sprint has been the most challenging part of my bootcamp journey so
+        far. Not only is it more complex than HTML and CSS, but I've also had to
+        juggle family matters alongside my studies. Despite the difficulties,
+        I'm determined to persevere and overcome these obstacles.
+      </p>
+      <p class="p-style">
+        After completing JavaScript, I've gained a clearer understanding of
+        <span class="fb"
+          >the relationship between HTML, CSS, and JavaScript</span
+        >. Let's imagine a computer as a combination of these technologies. HTML
+        serves as the basic content, akin to the hardware components like CPU,
+        SSD, and motherboard. CSS controls the visual styling, similar to the
+        type of computer you're using, whether it's a desktop, laptop, or
+        tablet. JavaScript manages interactions with the user, functioning like
+        input devices such as keyboards, cameras, mice, and touchscreens. I hope
+        this analogy provides a better understanding of HTML, CSS, and
+        JavaScript.
+      </p>
+    </div>
+    <div class="div2">
+      <p class="p-style">
+        <span class="fb">Control flow</span> refers to the order in which
+        statements are executed in a script and is managed by conditional
+        statements (if, else if, else), loops (for, while, do-while), and switch
+        statements. <span class="fb">Loops</span> are control structures used to
+        repeat a block of code multiple times.
+      </p>
+      <p class="p-style">
+        Cooking for my family every day is like using control flow to prepare
+        dinner. I follow a sequence of steps, such as chopping vegetables,
+        marinating meat, and cooking ingredients in a specific order. Loops come
+        in when I need to repeat certain steps multiple times, like chopping
+        veggies or preparing meat.
+      </p>
+      <p class="p-style">Now, Let's talk about Arrays, Objects and Function.</p>
+      <p class="p-style">
+        <span class="fb">Arrays</span> store data in an ordered sequence of
+        elements, each identified by an index. To access data from an array, you
+        use square brackets [] notation with the index of the element you want
+        to retrieve.
+      </p>
+      <code>const fruits = ['apple', 'pinapple', 'orange', 'banana'];</code>
+      <code>console.log(fruits[2]); </code>
+      <p class="p-style">
+        <span class="fb">Objects</span> store data in key-value pairs and it is
+        unordered, where each value is associated with a unique key. To access
+        data from an object, you use dot notation (object.property) or square
+        brackets notation (object['property']) with the key of the property you
+        want to retrieve.
+      </p>
+      <code>const stock = { product: 'whiteCoffee', price: 5.99 };</code>
+      <code>console.log(stock.product);</code>
+      <code>console.log(stock['price'])</code>
+      <p class="p-style">
+        <span class="fb">Function</span> is a blocks of code for a specific task
+        which is reusable. It help organize code, improve readability. It allow
+        you to break down a program into smaller, more manageable parts, leading
+        to shorter, more efficient programs.
+      </p>
+      <p class="p-style">
+        Think of a function as a machine designed by people to complete a
+        specific task efficiently and repeatedly. Just like machines are built
+        for specific purposes, functions in programming are created to execute
+        specific task or calculations to the overall functionality of the
+        program.
+      </p>
+      <p class="p-style">
+        The Document Object Model (<span class="fb">DOM</span>) is a programming
+        interface for web documents. Developers can manipulate the DOM using
+        JavaScript to dynamically update the content, structure, and style of
+        web pages.
+      </p>
+      <p class="p-style">
+        While working on the JavaScript-cafe project, after completing each
+        function, I made it a habit to immediately call the function to observe
+        its behavior. If something unexpected occurred, I would inspect the DOM
+        to identify and rectify any issues. The DOM acted as a guide,
+        pinpointing errors and their locations, aiding in troubleshooting and
+        ensuring smooth functionality.
+      </p>
+    </div>
+  </body>
+  <footer>
+    <p>
+      if you are interested in full stack web development please visit
+      <a href="https://devacademy.co.nz/" target="”_blank”" class="nodecor"
+        >Dev academy</a
+      >
+      website for more information.
+    </p>
+  </footer>
+</html>
