@@ -215,6 +215,12 @@ code {
   background-image: url(/photos/tech/absolute.png);
   height: 200px;
 }
+ul li {
+  font-family: 'Crimson Text', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+}
 
 @media all and (max-width: 768px) {
   .pic1 {
